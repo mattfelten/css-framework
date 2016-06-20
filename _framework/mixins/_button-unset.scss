@@ -1,0 +1,8 @@
+@mixin button-unset {
+	background: none;
+	border: none;
+	cursor: pointer;
+	font: inherit;
+	padding: 0;
+	margin: 0;
+}

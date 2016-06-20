@@ -1,0 +1,10 @@
+// Stolen from CSS Tricks
+// http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+//
+// This allows us to set box-sizing on specific elements and have it cascade down
+// Example: html { box-sizing: border-box }
+// This will make every child border-box also, unless it's excplicitly set somewhere else
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}

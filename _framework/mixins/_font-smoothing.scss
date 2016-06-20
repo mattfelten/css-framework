@@ -1,0 +1,11 @@
+// Light text on dark backgrounds look thicker than it should in Chrome and Safari
+
+@mixin smooth-type {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@mixin unset-smooth-type {
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: auto;
+}

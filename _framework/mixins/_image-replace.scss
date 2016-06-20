@@ -1,0 +1,12 @@
+@mixin image-replace($image, $width:'', $height:'') {
+	@include hide-text;
+	@if $width != '' {
+		width: $width;
+	}
+	@if $height != '' {
+		height: $height;
+	}
+	display: block;
+	background: url($image) no-repeat center center;
+	background-size: $width $height;
+}

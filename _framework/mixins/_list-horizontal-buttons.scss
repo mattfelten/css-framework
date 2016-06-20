@@ -1,0 +1,8 @@
+@mixin list-horizontal-buttons {
+	@include list-unset;
+
+	li {
+		display: inline-block;
+		margin: .5em 0;
+	}
+}

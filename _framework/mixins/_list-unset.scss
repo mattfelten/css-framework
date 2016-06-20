@@ -1,0 +1,13 @@
+@mixin list-unset {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+%list-unset {
+	@include list-unset;
+}
+
+.list-unset {
+	@extend %list-unset;
+}

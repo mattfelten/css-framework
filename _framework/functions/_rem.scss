@@ -1,0 +1,9 @@
+html {
+	font-size: 62.5%; // Sets up for base 10
+	// If you change this, you'll fuck up the calculations on everything.
+	// Override font-size in other places as necessary. Like <body> or something.
+}
+
+@function rem($pxval) {
+	@return ($pxval / 10) * 1rem;
+}

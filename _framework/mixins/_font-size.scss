@@ -1,0 +1,7 @@
+// To set rems with px fallback for lame-ass IE8
+// This is why we can't have nice things
+
+@mixin font-size($pxval) {
+	font-size: $pxval * 1px;
+	font-size: rem($pxval);
+}
